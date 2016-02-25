@@ -981,9 +981,14 @@ phoneme z3      // "six" and "dix". [s] before pause, [z] before vowel, else []
   ENDIF
 endphoneme
 
+phoneme j.
+  liquid
+  lengthmod 7
+  ipa U+0265
+endphoneme
 
 // translate from English to French phonemes
-equivalents en
+equivalents NULL   // disable this table
 //remove_stress
 0	O
 3	W r
